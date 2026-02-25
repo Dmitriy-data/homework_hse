@@ -1,0 +1,5 @@
+time,event_type,protocol,src_ip,dst_ip,src_port,dst_port,domain,details
+,DHCP,DHCP,0.0.0.0,255.255.255.255,68,67,,
+,DHCP,DHCP,192.168.0.1,192.168.0.10,67,68,,
+,DHCP,DHCP,0.0.0.0,255.255.255.255,68,67,,
+,DHCP,DHCP,192.168.0.1,192.168.0.10,67,68,,

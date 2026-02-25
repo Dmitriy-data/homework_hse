@@ -1,0 +1,41 @@
+{
+  "input_file": "dhcp.pcapng",
+  "total_packets_seen": 4,
+  "parse_errors": 0,
+  "events_total": 4,
+  "dns_queries_total": 0,
+  "unique_ips": 4,
+  "unique_domains": 0,
+  "top_protocols": [
+    {
+      "protocol": "DHCP",
+      "count": 4
+    }
+  ],
+  "top_ips": [
+    {
+      "ip": "0.0.0.0",
+      "count": 2
+    },
+    {
+      "ip": "255.255.255.255",
+      "count": 2
+    },
+    {
+      "ip": "192.168.0.1",
+      "count": 2
+    },
+    {
+      "ip": "192.168.0.10",
+      "count": 2
+    }
+  ],
+  "top_domains": [],
+  "suspicious_indicators": [],
+  "output_files": {
+    "events_csv": "result_dhcp\\events.csv",
+    "dns_requests_csv": "result_dhcp\\dns_requests.csv",
+    "summary_json": "result_dhcp\\summary.json",
+    "plot_png": null
+  }
+}
