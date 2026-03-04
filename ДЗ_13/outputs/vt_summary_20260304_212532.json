@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "malicious": 67,
+    "suspicious": 0,
+    "undetected": 2,
+    "harmless": 0,
+    "timeout": 0,
+    "confirmed-timeout": 0,
+    "failure": 0,
+    "type-unsupported": 7
+  },
+  "top_engines": [
+    {
+      "engine": "AhnLab-V3",
+      "category": "malicious",
+      "result": "Virus/EICAR_Test_File",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Alibaba",
+      "category": "malicious",
+      "result": "Virus:Win32/EICAR.A",
+      "method": "blacklist"
+    },
+    {
+      "engine": "alibabacloud",
+      "category": "malicious",
+      "result": "Engtest:Multi/Eicar",
+      "method": "blacklist"
+    },
+    {
+      "engine": "ALYac",
+      "category": "malicious",
+      "result": "Misc.Eicar-Test-File",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Antiy-AVL",
+      "category": "malicious",
+      "result": "TestFile/Win32.EICAR",
+      "method": "blacklist"
+    },
+    {
+      "engine": "APEX",
+      "category": "malicious",
+      "result": "EICAR Anti-Virus Test File",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Arcabit",
+      "category": "malicious",
+      "result": "EICAR-Test-File (not a virus)",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Avast",
+      "category": "malicious",
+      "result": "EICAR Test-NOT virus!!!",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Avast-Mobile",
+      "category": "malicious",
+      "result": "Eicar",
+      "method": "blacklist"
+    },
+    {
+      "engine": "AVG",
+      "category": "malicious",
+      "result": "EICAR Test-NOT virus!!!",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Avira",
+      "category": "malicious",
+      "result": "Eicar-Test-Signature",
+      "method": "blacklist"
+    },
+    {
+      "engine": "Baidu",
+      "category": "malicious",
+      "result": "Win32.Test.Eicar.a",
+      "method": "blacklist"
+    }
+  ],
+  "permalink": "https://www.virustotal.com/api/v3/files/275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+}
