@@ -1,0 +1,5 @@
+﻿indicator_type,indicator,risk_score,threat_level,alert_count,high_severity_alerts,dns_queries,unique_domains,vt_malicious,vt_suspicious,vt_reputation,vt_country,vt_as_owner,vt_source,domains,signatures,categories,action
+public_ip,185.220.101.10,42,high,2,2,0,0,15,2,-14,DE,Stiftung Erneuerbare Freiheit,virustotal_api,,ET MALWARE Known Malicious IP; ET TROJAN Possible C2 Beacon,Malware Command and Control Activity Detected; Trojan Activity,BLOCK_IP
+public_ip,91.240.118.172,30,high,1,1,0,0,12,1,-1,HK,,virustotal_api,,ET TROJAN Downloader Activity,Malware Command and Control Activity Detected,BLOCK_IP
+public_ip,45.9.148.201,20,high,2,2,0,0,5,0,0,NL,Nice IT Services Group Inc.,virustotal_api,,ET POLICY External Remote Access Tool; ET SCAN Suspicious inbound connection,Attempted Information Leak; Potentially Bad Traffic,BLOCK_IP
+host,10.0.0.15,10,high,0,0,6,2,0,0,0,,,suricata_only,cdn-update-check.net; panel-sync-service.net,,,NOTIFY_HOST

@@ -1,0 +1,17 @@
+{"timestamp": "2026-03-09T10:00:01.000000+0300", "event_type": "alert", "src_ip": "185.220.101.10", "dest_ip": "10.0.0.15", "alert": {"signature": "ET TROJAN Possible C2 Beacon", "category": "Trojan Activity", "severity": 1}}
+{"timestamp": "2026-03-09T10:00:10.000000+0300", "event_type": "alert", "src_ip": "185.220.101.10", "dest_ip": "10.0.0.15", "alert": {"signature": "ET MALWARE Known Malicious IP", "category": "Malware Command and Control Activity Detected", "severity": 1}}
+{"timestamp": "2026-03-09T10:01:01.000000+0300", "event_type": "alert", "src_ip": "45.9.148.201", "dest_ip": "10.0.0.25", "alert": {"signature": "ET SCAN Suspicious inbound connection", "category": "Attempted Information Leak", "severity": 2}}
+{"timestamp": "2026-03-09T10:01:30.000000+0300", "event_type": "alert", "src_ip": "45.9.148.201", "dest_ip": "10.0.0.25", "alert": {"signature": "ET POLICY External Remote Access Tool", "category": "Potentially Bad Traffic", "severity": 2}}
+{"timestamp": "2026-03-09T10:02:01.000000+0300", "event_type": "alert", "src_ip": "91.240.118.172", "dest_ip": "10.0.0.30", "alert": {"signature": "ET TROJAN Downloader Activity", "category": "Malware Command and Control Activity Detected", "severity": 1}}
+{"timestamp": "2026-03-09T10:02:30.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "cdn-update-check.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:02:31.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "cdn-update-check.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:02:32.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "cdn-update-check.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:02:33.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "panel-sync-service.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:02:34.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "panel-sync-service.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:02:35.000000+0300", "event_type": "dns", "src_ip": "10.0.0.15", "dest_ip": "8.8.8.8", "dns": {"rrname": "panel-sync-service.net", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:03:01.000000+0300", "event_type": "dns", "src_ip": "10.0.0.25", "dest_ip": "1.1.1.1", "dns": {"rrname": "example.org", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:03:10.000000+0300", "event_type": "dns", "src_ip": "10.0.0.25", "dest_ip": "1.1.1.1", "dns": {"rrname": "example.org", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:03:20.000000+0300", "event_type": "dns", "src_ip": "10.0.0.50", "dest_ip": "8.8.4.4", "dns": {"rrname": "safe-site.local", "type": "query", "rcode": "NOERROR"}}
+{"timestamp": "2026-03-09T10:04:00.000000+0300", "event_type": "flow", "src_ip": "10.0.0.15", "dest_ip": "185.220.101.10", "proto": "TCP"}
+{"timestamp": "2026-03-09T10:04:10.000000+0300", "event_type": "flow", "src_ip": "10.0.0.25", "dest_ip": "45.9.148.201", "proto": "TCP"}
+{"timestamp": "2026-03-09T10:04:20.000000+0300", "event_type": "flow", "src_ip": "10.0.0.30", "dest_ip": "91.240.118.172", "proto": "TCP"}
